@@ -1,0 +1,14 @@
+.container  {
+    height: 500px;
+    width: 700px;
+    margin: 50px;
+    padding: 20px;
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+}
+.box2   {
+    display: flex;
+    justify-content: space-between ;
+}

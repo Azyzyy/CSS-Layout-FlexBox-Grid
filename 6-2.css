@@ -1,0 +1,39 @@
+*   {
+    box-sizing: border-box;
+}
+#box    {
+    display: flex;
+    min-height: 100vh;
+    /* flex-direction: column; */
+    margin: 0;
+}
+nav {
+    height: 20vw;
+    width: 13vw;
+    background-color: seagreen;
+}
+#main   {
+    height: 20vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    /* background-color: silver; */
+}
+#main > header, #main > footer  {
+    background-color: brown;
+    height: 3vw;
+}
+.mang   {
+    display: flex;
+    flex: 1;
+}
+.hudz   {
+    background-color: thistle;
+    flex: 1;
+}
+.cang   {
+    background-color: tomato;
+    flex: 1;
+}
+
